@@ -12,7 +12,7 @@
  ![image](https://github.com/user-attachments/assets/0c6b6f56-3873-408c-a10d-580aa2fde125)
 
 
- ## Mongo Express 
+ # Mongo Express 
 
 First, we set up a secure place called secret to store the admin user and secret key, which we get with a command.
 --> Then we create a secret.yaml file with apiVersion v1 and kind Secret including the admin user and key details and run kubectl apply -f secret.yaml to create it.
